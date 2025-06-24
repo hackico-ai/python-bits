@@ -14,11 +14,13 @@ AI chatbot template for analyzing video content. It helps researchers explore, s
 
 ## Tool Structure
 
+```txt
 youtube_ai_ctx_chat/
-├── app.py # Main Gradio interface
-├── chatbot.py # GPT/OpenAI interaction logic
-├── youtube.py # YouTube caption extractor
-└── config.py # Configuration (OpenAI API key, model name)
+├── app.py      # Main Gradio interface
+├── chatbot.py  # GPT/OpenAI interaction logic
+├── youtube.py  # YouTube caption extractor
+└── config.py   # Configuration (OpenAI API key, model name)
+```
 
 ## Usage
 
